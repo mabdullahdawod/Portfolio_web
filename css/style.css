@@ -453,8 +453,10 @@ footer .indeed img{
  /* ************************************************ */
 
  @media(max-width:1400px){
-    header .header-main .navbar-expand-md .navbar-nav .nav-link{font-size: 27px;margin: 0 19px;}
-
+    .hero h1{
+        font-size: 55px;
+        line-height: 61px;
+    }
 }
 
 /* ***************************************************** */
@@ -579,6 +581,7 @@ footer .indeed img{
 /* ************************************************************** */
 
 @media(max-width:576px){
+    header .header-main .navbar-brand{font-size: 20px;}
     header .header-main .navbar-collapse{width: 300px;}
     header .header-main .navbar-brand{left: -15px;}
     header .header-top{display: none;}
@@ -589,9 +592,9 @@ footer .indeed img{
         text-align: center;
     }
     .hero-section{flex-direction: column-reverse;align-items: unset;}
-    .hero .hero-image{max-width:235px;margin: 0 auto;position: unset;padding-top: 0;}
+    .hero .hero-image{max-width:190px;margin: 0 auto;position: unset;padding-top: 0;}
     .hero .hero-slider{padding: 129px 0 41px;}
-    .hero h1{font-size: 24px;line-height: 30px;}
+    .hero h1{font-size: 24px;line-height: 30px;margin-top: 15px;}
     .hero h2{margin-bottom: 35px;}
     .hero h1 span:nth-child(2){font-size: 33px;}
     .hero h1 span:last-child{font-size: 33px;}
@@ -599,9 +602,12 @@ footer .indeed img{
     .hero-content{
         margin-top: 75px;
     }
+    .hero-content{
+        margin: 0 auto;
+    }
     .hero h3 {
-        font-size: 28px;
-        line-height: 37px;
+        font-size: 23px;
+        line-height: 28px;
     }
     
 }
