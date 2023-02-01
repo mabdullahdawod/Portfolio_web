@@ -512,7 +512,7 @@ footer .indeed img{
 @media(max-width:767px){
    
     .form-group{display: none;}
-    .navbar-toggler{ position: absolute; right: -1%; top: 4px; z-index: 1; border: none;
+    .navbar-toggler{ position: absolute; right: -1%; top: 4px; z-index: 99999; border: none;
         outline: none;}
     header button span{
        width: 30px; height: 2px; background: white; display: block; border: 1px solid gray;
@@ -608,6 +608,9 @@ footer .indeed img{
     .hero h3 {
         font-size: 23px;
         line-height: 28px;
+    }
+    .hero h1 span:last-child{
+        line-height: 43px;
     }
     
 }
