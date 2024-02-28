@@ -298,12 +298,8 @@ header .fa-chevron-down:before {
 }
 
 .hero .hero-image img {
-    clip-path: polygon(50% 5%, 90% 20%, 100% 60%, 75% 120%, 25% 100%, 0% 60%, 10% 20%);
-    background-color: #00BD95;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);      background-color: #00BD95;
     width: 90%;
-    padding-top: 60px;
-    padding-left: 29px;
-    padding-right: 7px;
 }
 
 
